@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#062d20">
+<meta name="description" content="ALPHONSA SPICES — premium cardamom, pepper, coffee beans, clove and masalas sourced direct from farmers in the misty hills of Idukki, Kerala.">
+<title>ALPHONSA SPICES | From the Misty Hills of Idukki</title>
+<style>
+:root{--forest:#062d20;--forest2:#0b3b2b;--gold:#e8bd54;--cream:#f7f3e8;--ink:#15372a;--muted:#5c6c61}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit}.wrap{width:min(1160px,92%);margin:auto}
+header{background:var(--forest);color:white;position:sticky;top:0;z-index:20;border-bottom:1px solid #c99c3c66}
+.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--gold);font-family:Georgia,serif;font-size:25px;line-height:1.05;letter-spacing:1px}.brand small{display:block;font:11px Arial,sans-serif;letter-spacing:5px;text-align:center;margin-top:5px}.brandmark{font-size:32px}.navlinks{display:flex;align-items:center;gap:25px}.navlinks a{text-decoration:none;font-size:14px;color:#f8f5e9}.navlinks a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--gold);color:#102c20;text-decoration:none;border:1px solid var(--gold);padding:12px 19px;border-radius:999px;font-weight:700;font-size:14px;transition:.2s}.btn:hover{filter:brightness(1.07);transform:translateY(-1px)}.btn-outline{background:transparent;color:var(--gold)}
+.hero{position:relative;min-height:490px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(2,25,17,.88),rgba(2,25,17,.53) 47%,rgba(2,25,17,.12)),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2000&q=85') center/cover no-repeat}.hero-inner{padding:75px 0;max-width:650px}.eyebrow{color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:3px;font-size:12px}.hero h1{font:clamp(42px,6vw,70px)/1.03 Georgia,serif;margin:14px 0 16px;letter-spacing:-1px}.hero h2{font-size:22px;font-weight:500;margin:0 0 12px;color:#f4d986}.hero p{font-size:17px;max-width:510px;color:#f6f4ed}.actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:26px}
+.trust{background:var(--forest);color:#fff;display:grid;grid-template-columns:repeat(4,1fr);padding:24px max(4%,calc((100% - 1160px)/2));gap:12px}.trust div{text-align:center;padding:8px;border-right:1px solid #bca56c77}.trust div:last-child{border:0}.trust strong{display:block;color:var(--gold);font:21px Georgia,serif}.trust span{font-size:13px;color:#e8eee7}
+section{padding:72px 0}.section-head{text-align:center;margin:0 auto 34px}.section-head .eyebrow{color:#9a7014}.section-head h2{font:clamp(30px,4vw,44px) Georgia,serif;margin:5px 0 12px;color:var(--forest)}.rule{height:2px;width:54px;background:var(--gold);margin:auto}
+.products{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.product{background:white;border-radius:10px;overflow:hidden;box-shadow:0 5px 20px #1a35220d;border:1px solid #e7e0ce}.product img{width:100%;height:155px;object-fit:cover;display:block;background:#e5ddc8}.product-info{padding:14px}.product h3{font:20px Georgia,serif;color:var(--forest);margin:0 0 4px}.product p{font-size:13px;color:var(--muted);margin:0 0 12px}.product a{font-weight:700;text-decoration:none;color:#987018;font-size:13px}
+.about{background:#eee8d9}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.about-img{width:100%;height:360px;object-fit:cover;border-radius:12px}.about h2{font:clamp(30px,4vw,42px) Georgia,serif;color:var(--forest);line-height:1.15;margin:8px 0 18px}.about p{color:#45584c}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}.value{border-top:2px solid var(--gold);padding-top:13px}.value strong{display:block;color:var(--forest);font-family:Georgia,serif;font-size:17px}.value span{font-size:13px;color:var(--muted)}
+.contact{background:var(--forest);color:white}.contact .section-head h2{color:white}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.contact-card{border:1px solid #d4b45d55;border-radius:12px;padding:26px;background:#ffffff08}.contact-card h3{font:25px Georgia,serif;color:var(--gold);margin:0 0 16px}.contact-card p{margin:10px 0;color:#f0f1e9;overflow-wrap:anywhere}.contact-card a{color:#f4d27d}.small{font-size:12px;color:#d6dfd7}
+.registrations{background:#0b3b2b;color:white;padding:22px 0}.reg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.reg{display:flex;align-items:center;justify-content:center;gap:12px;border-right:1px solid #d5bb6b55}.reg:last-child{border:0}.reg span{color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:1px;display:block}.reg strong{font-size:14px;overflow-wrap:anywhere}
+footer{background:#031d15;color:#e9eee8;padding:28px 0 18px}.footer-top{display:flex;justify-content:space-between;gap:25px;align-items:center}.footer-tag{color:var(--gold);font:italic 18px Georgia,serif}.footer-bottom{border-top:1px solid #ffffff22;margin-top:22px;padding-top:15px;display:flex;justify-content:space-between;gap:15px;font-size:12px;color:#bfc9c1}
+.whatsapp-float{position:fixed;right:18px;bottom:18px;background:#159c5b;color:white;text-decoration:none;font-weight:700;padding:13px 17px;border-radius:999px;box-shadow:0 5px 20px #0003;z-index:30}
+@media(max-width:850px){.nav{flex-wrap:wrap;padding:15px 0}.navlinks{order:3;width:100%;justify-content:center;gap:17px;flex-wrap:wrap}.navlinks a{font-size:13px}.nav>.btn{padding:10px 13px}.hero{min-height:430px}.products{grid-template-columns:repeat(3,1fr)}.about-grid{gap:25px}.trust{grid-template-columns:repeat(2,1fr)}.trust div:nth-child(2){border-right:0}.trust div:nth-child(3),.trust div:nth-child(4){border-top:1px solid #bca56c55;padding-top:18px}.reg-grid{grid-template-columns:1fr}.reg{border-right:0;border-bottom:1px solid #d5bb6b55;padding:10px}.reg:last-child{border-bottom:0}}
+@media(max-width:560px){.brand{font-size:21px}.brandmark{font-size:25px}.nav>.btn{font-size:12px}.hero-inner{padding:60px 0}.hero h1{font-size:43px}.hero p{font-size:15px}.products{grid-template-columns:repeat(2,1fr);gap:12px}.product img{height:135px}section{padding:52px 0}.about-grid,.contact-grid{grid-template-columns:1fr}.about-img{height:250px}.values{grid-template-columns:1fr}.trust strong{font-size:18px}.footer-top,.footer-bottom{align-items:flex-start;flex-direction:column}.whatsapp-float{right:12px;bottom:12px;font-size:13px;padding:11px 14px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Alphonsa Spices home"><span class="brandmark">❧</span><span>ALPHONSA<small>SPICES</small></span></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#products">Products</a><a href="#about">About Us</a><a href="#promise">Our Promise</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="https://wa.me/917907366078?text=Hello%20ALPHONSA%20SPICES%2C%20I%27d%20like%20to%20enquire%20about%20your%20spices." target="_blank" rel="noopener">☏ Order on WhatsApp</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap"><div class="hero-inner">
+    <div class="eyebrow">ALPHONSA SPICES</div>
+    <h1>From the Misty Hills<br>of Idukki</h1>
+    <h2>Pure. Natural. Authentic.</h2>
+    <p>Discover quality spices sourced direct from farmers in the lush hills of Idukki, Kerala.</p>
+    <div class="actions">
+      <a class="btn" href="https://wa.me/917907366078?text=Hello%20ALPHONSA%20SPICES%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">☏ Order on WhatsApp</a>
+      <a class="btn btn-outline" href="#products">Explore Our Products ↓</a>
+    </div>
+  </div></div>
+</section>
+
+<div class="trust" id="promise">
+  <div><strong>100% Natural</strong><span>No artificial additives</span></div>
+  <div><strong>Farmer Sourced</strong><span>Sourced direct from farmers</span></div>
+  <div><strong>From Idukki</strong><span>Rooted in the hill farms</span></div>
+  <div><strong>Quality First</strong><span>Carefully selected spices</span></div>
+</div>
+
+<section id="products">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">OUR PRODUCTS</div><h2>Nature’s Finest Spices</h2><div class="rule"></div><p>Get in touch for availability, grades and bulk enquiries.</p></div>
+    <div class="products">
+      <article class="product"><img src="https://images.unsplash.com/photo-1615485500704-8e990f9900f5?auto=format&fit=crop&w=700&q=80" alt="Green cardamom pods" loading="lazy"><div class="product-info"><h3>Cardamom</h3><p>Fragrant green cardamom from Idukki.</p><a href="https://wa.me/917907366078?text=Hello%2C%20please%20share%20cardamom%20availability%20and%20rates." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+      <article class="product"><img src="https://images.unsplash.com/photo-1599909533730-f9d4d3c2b7f8?auto=format&fit=crop&w=700&q=80" alt="Black peppercorns" loading="lazy"><div class="product-info"><h3>Pepper</h3><p>Bold, aromatic peppercorns.</p><a href="https://wa.me/917907366078?text=Hello%2C%20please%20share%20pepper%20availability%20and%20rates." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+      <article class="product"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=700&q=80" alt="Roasted coffee beans" loading="lazy"><div class="product-info"><h3>Coffee Beans</h3><p>Rich aroma for coffee lovers.</p><a href="https://wa.me/917907366078?text=Hello%2C%20please%20share%20coffee%20bean%20availability%20and%20rates." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+      <article class="product"><img src="https://images.unsplash.com/photo-1609501676725-7186f017a4b7?auto=format&fit=crop&w=700&q=80" alt="Whole cloves" loading="lazy"><div class="product-info"><h3>Clove</h3><p>Warm and distinctive whole cloves.</p><a href="https://wa.me/917907366078?text=Hello%2C%20please%20share%20clove%20availability%20and%20rates." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+      <article class="product"><img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=700&q=80" alt="Assorted spices and masalas" loading="lazy"><div class="product-info"><h3>Masalas</h3><p>Spice blends for everyday cooking.</p><a href="https://wa.me/917907366078?text=Hello%2C%20please%20share%20your%20masala%20range%20and%20rates." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <img class="about-img" src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=85" alt="Lush green plantation landscape in the hills" loading="lazy">
+    <div><div class="eyebrow">ABOUT US</div><h2>ALPHONSA SPICES</h2>
+      <p>We are a Kerala-based spice business inspired by the rich growing traditions of Idukki. We work to bring customers quality spices, with products sourced direct from farmers.</p>
+      <p>Whether you need spices for your home, shop or business, contact us for product availability and wholesale enquiries.</p>
+      <a class="btn" href="https://wa.me/917907366078?text=Hello%20ALPHONSA%20SPICES%2C%20I%27d%20like%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener">Talk to Us →</a>
+      <div class="values"><div class="value"><strong>Farmer Sourced</strong><span>Supporting direct sourcing</span></div><div class="value"><strong>Pure & Natural</strong><span>Spices selected with care</span></div><div class="value"><strong>Local Roots</strong><span>Inspired by Idukki</span></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="registrations">
+  <div class="wrap reg-grid">
+    <div class="reg"><div><span>GSTIN</span><strong>32PAVPS3058G1ZY</strong></div></div>
+    <div class="reg"><div><span>FSSAI</span><strong>21326178000581</strong></div></div>
+    <div class="reg"><div><span>Proprietor</span><strong>Adone Raphel Saju</strong></div></div>
+  </div>
+</div>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">GET IN TOUCH</div><h2>Let’s Talk Spices</h2><div class="rule"></div><p>For orders, availability and wholesale enquiries, contact us.</p></div>
+    <div class="contact-grid">
+      <div class="contact-card"><h3>Contact Details</h3>
+        <p>☎ <a href="tel:+917907366078">7907366078</a> &nbsp;|&nbsp; <a href="tel:+917907308602">7907308602</a></p>
+        <p>✉ <a href="mailto:adonesajuvr@gmail.com">adonesajuvr@gmail.com</a></p>
+        <p>⌖ Kumily–Kattappana Road, Vellaramkunnu, Kumily, Idukki, Kerala – 685535</p>
+        <p>Instagram: <a href="https://www.instagram.com/alphonsa.spices/" target="_blank" rel="noopener">@alphonsa.spices</a></p>
+      </div>
+      <div class="contact-card"><h3>Place an Enquiry</h3><p>Tell us which spices you need and the approximate quantity. We’ll respond through WhatsApp.</p>
+        <p class="small">For wholesale and bulk orders, please ask us for current availability, grade and pricing.</p>
+        <a class="btn" href="https://wa.me/917907366078?text=Hello%20ALPHONSA%20SPICES%2C%0AProduct%3A%20%0AQuantity%3A%20%0ADelivery%20location%3A%20" target="_blank" rel="noopener">Chat on WhatsApp ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="footer-top"><a class="brand" href="#home"><span class="brandmark">❧</span><span>ALPHONSA<small>SPICES</small></span></a><div class="footer-tag">From the Misty Hills of Idukki</div><a href="https://www.instagram.com/alphonsa.spices/" target="_blank" rel="noopener">@alphonsa.spices ↗</a></div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> ALPHONSA SPICES. All rights reserved.</span><a href="#contact">Contact us</a></div>
+  </div>
+</footer>
+<a class="whatsapp-float" href="https://wa.me/917907366078?text=Hello%20ALPHONSA%20SPICES%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat with Alphonsa Spices on WhatsApp">◉ WhatsApp</a>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
